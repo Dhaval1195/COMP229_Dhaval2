@@ -1,3 +1,6 @@
+//Dhavalbhai Patel
+//301240436
+//18 June
 let express = require('express');
 let router = express.Router();
 
@@ -19,7 +22,7 @@ router.get('/products', indexController.displayProductsPage);
 router.get('/services', indexController.displayServicesPage);
 
 /* GET Contact Us page. */
-// router.get('/contact', indexController.displayContactPage);
+router.get('/contact', indexController.displayContactPage);
 
 /* GET Route for displaying the Login page */
 router.get('/login', indexController.displayLoginPage);
